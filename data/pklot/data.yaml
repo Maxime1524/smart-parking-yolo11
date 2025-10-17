@@ -3,11 +3,11 @@ val: ../valid/images
 test: ../test/images
 
 nc: 2
-names: ['empty', 'occupied']
+names: ['space-empty', 'space-occupied']
 
 roboflow:
-  workspace: parking-space-detection
-  project: pklot-8w36e
-  version: 2
+  workspace: pklot-parking-detection
+  project: empty-car-parking-spot-detetection
+  version: 1
   license: CC BY 4.0
-  url: https://universe.roboflow.com/parking-space-detection/pklot-8w36e/dataset/2
+  url: https://universe.roboflow.com/pklot-parking-detection/empty-car-parking-spot-detetection/dataset/1
